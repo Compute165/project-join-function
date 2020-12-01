@@ -1,0 +1,89 @@
+html {
+    background-color: aqua;
+}
+
+.para1 {
+    margin-top: 10px;
+}
+
+.para2 {
+    margin-top: 10px;
+}
+
+.paragraphs {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+.paradiv {
+    background-color: aqua;
+}
+
+.head {
+    background-color: bisque;
+}
+
+#paraholder {
+    margin: 20px;
+    border: 2px solid rgb(33, 59, 33);
+}
+
+.parainput {
+    width: 500px;
+}
+
+#button {
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFF00;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 299px;
+    box-shadow: 0 12px #999999;
+}
+
+#button:hover {
+    content: '  >';
+    background-color: #1B5E20;
+}
+
+#button:hover span:after {
+    content: '  >';
+}
+
+#button:active {
+    box-shadow: 0 6px #666666;
+    transform: translateY(9px);
+}
+
+#button2 {
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFF00;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 299px;
+    box-shadow: 0 12px #999999;
+}
+
+#button2:hover {
+    content: '  >';
+    background-color: #1B5E20;
+}
+
+#button2:hover span:after {
+    content: '  >';
+}
+
+#button2:active {
+    box-shadow: 0 6px #666666;
+    transform: translateY(9px);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Paragraph maker</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <center>
+        <div class="head">
+            <h3 style="margin-top: 20px; margin-bottom: 20px;" class="head">
+                Paragraph Maker
+            </h3>
+
+            <h4 style="margin-top: 20px; margin-bottom: 20px;" class="head">
+                Type each line in each text input to form your Paragraph
+            </h4>
+        </div>
+
+        <span>
+
+        <div id="Paragraph1" class="paradiv">
+            <span>1</span>
+        <input type="text" placeholder="line 1" id="line11" class="para1 parainput">
+
+        <br>
+
+        <span>2</span>
+        <input type="text" placeholder="line 2" id="line12" class="para1 parainput">
+
+        <br>
+
+        <span>3</span>
+        <input type="text" placeholder="line 3" id="line13" class="para1 parainput">
+
+        <br>
+
+        <span>4</span>
+        <input type="text" placeholder="line 4" id="line14" class="para1 parainput">
+
+        <br>
+
+        <div>
+            <button type="button" id="button" class="btn-primary paraButtons" onclick="getPara1()">Get Paragraph 1</button>
+        </div>
+        </div>
+        </div>
+
+        <div id="Paragraph2" class="paradiv">
+
+            <span>1</span>
+            <input type="text" placeholder="line 1" id="line21" class="para2 parainput">
+
+            <br>
+
+            <span>2</span>
+            <input type="text" placeholder="line 2" id="line22" class="para2 parainput">
+
+            <br>
+
+            <span>3</span>
+            <input type="text" placeholder="line 3" id="line23" class="para2 parainput">
+
+            <br>
+
+            <span>4</span>
+            <input type="text" placeholder="line 4" id="line24" class="para2 parainput">
+
+            <br>
+
+            <button type="button" id="button2" class="btn-primary paraButtons" onclick="getPara2()">Get Paragraph 2</button>
+
+            <div id="paraholder">
+
+                <div id="parag1" class="paragraphs">
+
+                </div>
+
+                <div id="parag2" class="paragraphs">
+
+                </div>
+            </div>
+        </div>
+
+        </span>
+    </center>
+
+
+    </center>
+</body>
+
+</html>
